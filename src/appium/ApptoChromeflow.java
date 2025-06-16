@@ -41,8 +41,9 @@ public class ApptoChromeflow {
                 By.xpath("//android.widget.TextView[@text='Login']")));
         loginBtn.click();
 
+
         System.out.println("Login clicked, waiting for Chrome to launch...");
-        Thread.sleep(8000); // Wait for Chrome to open
+        Thread.sleep(8000); // Wait for Chrome to open the log
 
         // Step 3: Switch control to Chrome app
         driver.startActivity(new Activity("com.android.chrome", "com.google.android.apps.chrome.Main"));
