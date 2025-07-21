@@ -18,7 +18,7 @@ public class SwitchContentFromApptoApp {
         caps.setCapability("appium:automationName", "UiAutomator2");
         caps.setCapability("appium:appPackage", "com.whatsapp");
         caps.setCapability("appium:appActivity", "com.whatsapp.HomeActivity");
-        caps.setCapability("appium:noReset", false);
+        caps.setCapability("appium:noReset", true);
         caps.setCapability("appium:unlockType", "pin");
         caps.setCapability("appium:unlockKey", "939288");
 
