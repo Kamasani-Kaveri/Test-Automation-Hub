@@ -21,7 +21,7 @@ public class Application {
         driver.findElement(By.xpath("//*[@id=\"continue\"]")).click();
         WebElement element1=driver.findElement(By.xpath("//*[@name=\"password\"]"));
         element1.click();
-        element1.sendKeys("Kaveri@369");
+        element1.sendKeys("Kaveri@999");
         element1.submit();
 
 

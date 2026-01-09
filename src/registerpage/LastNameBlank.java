@@ -31,11 +31,11 @@ public class LastNameBlank {
 
 
         driver.findElement(By.id("msdd")).click();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
         WebElement arabicOption = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='Arabic']")));
         arabicOption.click();
         try {
-            Thread.sleep(5000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

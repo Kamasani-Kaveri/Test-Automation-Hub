@@ -22,7 +22,7 @@ public class PageUpPageDown {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -31,7 +31,7 @@ public class PageUpPageDown {
         actions.sendKeys(Keys.PAGE_UP).perform();
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

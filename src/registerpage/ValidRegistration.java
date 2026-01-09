@@ -25,7 +25,7 @@ public class ValidRegistration {
 
         driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Kamasani");
         driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("Kaveri");
-        driver.findElement(By.xpath("//textarea[@ng-model='Adress']")).sendKeys("Bangalore");
+        driver.findElement(By.xpath("//textarea[@ng-model='Adress']")).sendKeys("hyderabad");
         driver.findElement(By.xpath("//input[@type='email']")).sendKeys("kamasanikaveri@gmail.com");
         driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("1234567890");
 

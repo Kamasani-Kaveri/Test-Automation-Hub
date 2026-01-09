@@ -33,10 +33,10 @@ public class ScreenshotInFolder {
             // Save the screenshot
             FileHandler.copy(source, destination);
 
-            System.out.println("Screenshot saved to: " + destination.getAbsolutePath());
+            System.out.println("Screenshot saved : " + destination.getAbsolutePath());
 
         } catch (IOException e) {
-            System.out.println("Error while saving screenshot: " + e.getMessage());
+            System.out.println("Error while saving screenshot : " + e.getMessage());
         } finally {
             // Close the browser
             driver.quit();

@@ -20,11 +20,11 @@ public class BlankGender {
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
 
-        driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Kamasani");
+        driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("K");
         driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("Kaveri");
         driver.findElement(By.xpath("//textarea[@ng-model='Adress']")).sendKeys("Bangalore");
         driver.findElement(By.xpath("//input[@type='email']")).sendKeys("kamasanikaveri@gmail.com");
-        driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("1234567890");
+        driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("9392884409");
 
         driver.findElement(By.xpath("//input[@value='FeMale']"));
         driver.findElement(By.id("checkbox2")).click();

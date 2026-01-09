@@ -31,13 +31,13 @@ public class ScreenshotConsole {
         Actions actions = new Actions(driver);
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -57,7 +57,7 @@ public class ScreenshotConsole {
         System.setErr(fileOut);
 
         // Simulate Selenium activity
-        System.out.println("This will go the file");
+        System.out.println("This will go to file");
         System.err.println("error: no-such-element-exception.");
 
 

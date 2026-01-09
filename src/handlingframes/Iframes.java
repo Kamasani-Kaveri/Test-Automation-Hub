@@ -30,7 +30,7 @@ public class Iframes {
         WebElement element = driver.findElement(By.id("iframeResult"));
         driver.switchTo().frame(element);
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -39,7 +39,7 @@ public class Iframes {
         driver.switchTo().alert().accept();
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -52,7 +52,7 @@ public class Iframes {
         ArrayList<String> tab = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(tab.get(1));
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
